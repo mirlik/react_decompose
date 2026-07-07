@@ -18,16 +18,4 @@ body {
   background: #eee;
 }
 
-  @media (min-width: 500px) {
-    .header {
-      text-align: left;
-      display: flex;
-      justify-content: space-between;
-    }
-  }
 
-  @media (min-width: 800px) {
-    .article {
-      margin: 3.5em auto;
-    }
-  }
