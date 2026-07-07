@@ -4,7 +4,7 @@ import './Navigation.scss';
 // Create a Header function returning the HTML of header block
 function Nav() {
   return (
-    <nav className="nav">
+    <navigation className="navigation">
       <a className="navigation__link" href="#about">
         About
       </a>
@@ -14,7 +14,7 @@ function Nav() {
       <a className="navigation__link" href="#contact">
         Contact
       </a>
-    </nav>
+    </navigation>
   );
 }
 
