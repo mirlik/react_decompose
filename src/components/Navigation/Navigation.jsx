@@ -2,9 +2,9 @@
 import './Navigation.scss';
 
 // Create a Header function returning the HTML of header block
-function Nav() {
+function Navigation() {
   return (
-    <navigation className="navigation">
+    <nav className="navigation">
       <a className="navigation__link" href="#about">
         About
       </a>
@@ -14,8 +14,8 @@ function Nav() {
       <a className="navigation__link" href="#contact">
         Contact
       </a>
-    </navigation>
+    </nav>
   );
 }
 
-export default Nav;
+export default Navigation;
